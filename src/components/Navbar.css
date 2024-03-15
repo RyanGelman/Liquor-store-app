@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Varela';
+    src: url('/font/Varela-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Varela', sans-serif; /* Apply Varela font */
+}
+  
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f0f0f0;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #c0c0c0;
+}

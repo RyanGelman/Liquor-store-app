@@ -1,0 +1,175 @@
+.products-content {
+    margin-top: 80px; /* Adjust based on your navbar's height */
+    padding: 24px;
+    text-align: center;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.category-dropdown {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light grey border */
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Varela, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    /* Positioning adjustments if needed */
+    order: 2; /* Ensures dropdown is below the title on smaller screens */
+}
+
+.category-dropdown select {
+    width: 150px; /* Adjust the width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light grey border */
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+.category-dropdown select::-ms-expand {
+    display: none;
+}
+
+.category-dropdown select:hover {
+    background-color: #e8e8e8;
+}
+
+.category-dropdown select:focus {
+    outline: none; /* Removes the default focus outline */
+    border: 1px solid #aaa; /* Darker border on focus */
+}
+
+.subcategory-dropdown {
+    width: auto; /* Adjust the width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light grey border */
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Varela, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    order: 2; /* Ensures dropdown is below the title on smaller screens */
+}
+
+.subcategory-dropdown select {
+    width: 150px; /* Adjust the width as needed */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light grey border */
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+.subcategory-dropdown select:hover {
+    background-color: #e8e8e8;
+    outline: none; /* Removes the default focus outline on focus */
+    border: 1px solid #aaa; /* Darker border on focus */
+}
+
+.subcategory-dropdown select:focus {
+    outline: none; /* Removes the default focus outline */
+    border: 1px solid #aaa; /* Darker border on focus */
+}
+
+.products-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Varela, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    order: 1; /* Ensures title is above the dropdown on smaller screens */
+}
+
+.placeholder {
+    width: 150px;
+    visibility: hidden;
+}
+
+.products-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Aligns items in the center */
+    gap: 16px;
+}
+
+.product-item {
+    /* Default setting for larger screens: 3 items per row */
+    flex-basis: calc(33.333% - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.product-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.product-text {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+}
+
+.product-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 4px;
+    font-family: Varela, sans-serif;
+}
+
+.product-item p {
+    color: #666;
+    font-family: Varela, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .product-item {
+        flex-basis: calc(50% - 16px);
+    }
+}
+
+@media (max-width: 480px) {
+    .products-content {
+        margin-top: 150px; /* Further increased top margin for mobile devices */
+    }
+
+    .product-item {
+        flex-basis: 100%;
+    }
+
+    .header-section {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .category-dropdown select {
+        width: 100%; /* Full width for dropdown on smaller screens */
+    }
+}
