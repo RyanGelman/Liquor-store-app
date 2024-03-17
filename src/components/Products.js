@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Products.css';
 
 // Updated products array with category
@@ -9,19 +9,19 @@ const products = [
     name: 'Don Julio 1942',
     category: "Tequila",
     description: `A luxurious tequila, aged for 2.5 years, known for its rich caramel and chocolate notes.`,
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ21tNpgbkVa-OPuY9xUwAFpedIjYqaOjDqBA&usqp=CAU'
+    imageUrl: 'https://cdn11.bigcommerce.com/s-gr83s/images/stencil/1280x1280/products/3015/7527/9__42216.1567183822.jpg?c=2'
   },
   {
     name: "Don Julio 1942 Ultima Reserva",
     category: "Tequila",
     description: "An exclusive, limited-edition tequila, offering a unique blend of aged reserves with a smooth, oak and vanilla finish.",
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLEntRS7L3TR921QqyNwT_zFHI7v553_374w&usqp=CAU'
+    imageUrl: 'https://cdn.selection-prestige.de/media/catalog/product/cache/image/1536x/a4e40ebdc3e371adff845072e1c73f37/9/9/99989_don-julio-ultima-reserva-extra-anejo-075l-40-vol.jpg'
   },
   {
     name: "Don Julio Primavera",
     category: "Tequila",
     description: "A refreshing tequila, aged in orange wine casks for a light, citrus-infused flavor profile.",
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ab35JyuXCsN8eJk5S7pfdMIVrTFbihC4jQ&usqp=CAU'
+    imageUrl: 'https://cdn11.bigcommerce.com/s-k0y7xl9dpv/images/stencil/1280x1280/products/33746/38911/118861__21649.1646782923.jpg?c=1'
   },
   {
     name: "Don Julio Anejo",
@@ -45,7 +45,7 @@ const products = [
     name: "Clase Azul Gold",
     category: "Tequila",
     description: "A luxurious blend of tequila and mezcal, aged in bourbon barrels, offering a rich, complex flavor with a hint of agave.",
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EZ2zh4ofEYbl8PeBXUbDU5Jmgkn9QWfudrwXTxofztJrA4vDxfZ_fGuaWi1HK-YfSno&usqp=CAU'
+    imageUrl: 'https://www.binnys.com/globalassets/catalogs/binnys/10/1065/106573/106573.jpg?width=1000&height=1000&rmode=BoxPad&bgcolor=fff'
   },
   {
     name: "Clase Azul Reposado",
@@ -171,7 +171,7 @@ const products = [
     name: "Milagro Anejo",
     category: "Tequila",
     description: "Aged for 14 months, this tequila offers a rich, complex flavor profile with notes of chocolate, vanilla, and cinnamon.",
-    imageUrl: 'https://sunsetcorners.com/wp-content/uploads/product_images/product-640493-1698435418-PRE0353.jpg'
+    imageUrl: 'https://cdn11.bigcommerce.com/s-d4ygz9et8q/images/stencil/1280x1280/products/1772/1089/milagro__68178.1549562768.jpg?c=2'
   },
   {
     name: "1800 Blanco",
