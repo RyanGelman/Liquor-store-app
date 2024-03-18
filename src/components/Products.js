@@ -465,7 +465,7 @@ const products = [
     name: "Hennessey XO",
     category: "Cognac",
     description: "A rich and complex Cognac, featuring a blend of 100 eaux-de-vie, with deep and powerful flavors of cocoa, fruit, and spices.",
-    imageUrl: 'https://www.melandrose.com/prodimages/11341-DEFAULT-l.jpg'
+    imageUrl: 'https://cdn3.excellencerhum.com/5915-thickbox_default/cognac-hennessy-xo.jpg'
   },
   {
     name: "Hennessey VSOP",
