@@ -12,7 +12,7 @@
 }
   
 .store-info {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.8); 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 16px;
@@ -43,17 +43,23 @@
 }
 
 .store-address {
-    font-family: 'Varela', sans-serif; /* Consistency with the theme */
-    font-size: 1.2rem; /* Larger font size */
-    color: #007bff; /* Using a color to make it stand out, you can choose any */
-    margin-top: 20px; /* Adds some space above the address */
-    margin-bottom: 20px; /* Adds some space below the address */
-    font-weight: bold; /* Makes the font bold */
-    background-color: #f0f0f0; /* Light background color to highlight the address */
-    padding: 10px; /* Adds padding around the text */
-    border-radius: 5px; /* Optional: Adds rounded corners for a softer look */
-    display: inline-block; /* Makes the background only wrap the text */
-  }
+    font-family: 'Varela', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    display: inline-block;
+    text-align: center;
+}
+
+.store-address p {
+    margin: 0; 
+    line-height: 1.5; 
+}
   
   
   
@@ -79,7 +85,7 @@
 }
 
 .order-grubhub-button {
-    background-color: #ffa724; /* Grubhub-themed color */
+    background-color: #ffa724;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
@@ -87,9 +93,9 @@
     border-radius: 5px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-top: 10px; /* Space between the two buttons */
+    margin-top: 10px;
 }
 
 .order-grubhub-button:hover {
-    background-color: #45b76a; /* Darker shade for hover effect */
+    background-color: #45b76a; 
 }

@@ -17,7 +17,10 @@ function Home() {
         <h2>About Our Store</h2>
         <img src={storeImage} alt="Store" className="store-image" />
         <p>M & A Liquor and Wine, nestled in the vibrant community of Brighton Beach, is a small, family owned gem. Despite its size, our store boasts a carefully selected range of Vodka, Wine, Champagne, Tequila, Whiskey, and Cognac, each handpicked for its quality and distinctiveness. As a family-owned business, we focus on creating a warm, welcoming atmosphere where every customer feels valued. Our two-person team is not just knowledgeable about our products, but also passionate about helping customers find the perfect spirit for any occasion. We believe in quality over quantity, and our small scale allows us to maintain a personal touch and offer tailored recommendations. At M & A Liquor and Wine, we're more than just a store; we're a part of the Brighton Beach community, and we invite you to come in and experience the personal, attentive service that only a small business can provide.</p>
-        <p className="store-address">1109 Brighton Beach Ave, Brooklyn, NY 11235</p>
+        <div className="store-address">
+          <p>1109 Brighton Beach Ave, Brooklyn, NY 11235</p>
+          <p>Telephone: (718) 332-3502</p>
+        </div>
         <button onClick={openGoogleMaps} className="find-us-button">Find Us on Google Maps</button>
         <button onClick={openGrubhub} className="order-grubhub-button">Order on Grubhub</button>
       </div>
